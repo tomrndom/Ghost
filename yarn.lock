@@ -1737,7 +1737,14 @@
   dependencies:
     unidecode "^0.1.8"
 
-"@tryghost/tpl@0.1.5", "@tryghost/tpl@^0.1.1", "@tryghost/tpl@^0.1.2", "@tryghost/tpl@^0.1.3", "@tryghost/tpl@^0.1.4", "@tryghost/tpl@^0.1.5":
+"@tryghost/tpl@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.6.tgz#5271e30748b4c1d9363a98acb1ac7d21c3c6a6d4"
+  integrity sha512-zt8OTmGEcoIg+MUm8mROSbdPankqMynXc9utJw74V3AbuvEegbFsAq17sYX1wNdMAG12prhZx9MJF1/AMYdWMA==
+  dependencies:
+    lodash.template "^4.5.0"
+
+"@tryghost/tpl@^0.1.1", "@tryghost/tpl@^0.1.2", "@tryghost/tpl@^0.1.3", "@tryghost/tpl@^0.1.4", "@tryghost/tpl@^0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.5.tgz#736dbe49d085bf8a495963062e0a5ff72e68a18a"
   integrity sha512-uE4sQ07UdjAhxidEVPwZShLdmLRcaYlrIA/rbiaB37cJ9VtXEAYwcDLb/tdnlnoXuTQ3Y1vShCWgjyD4vGo5kA==
