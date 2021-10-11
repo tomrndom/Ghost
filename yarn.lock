@@ -1744,6 +1744,13 @@
   dependencies:
     lodash.template "^4.5.0"
 
+"@tryghost/tpl@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@tryghost/tpl/-/tpl-0.1.6.tgz#5271e30748b4c1d9363a98acb1ac7d21c3c6a6d4"
+  integrity sha512-zt8OTmGEcoIg+MUm8mROSbdPankqMynXc9utJw74V3AbuvEegbFsAq17sYX1wNdMAG12prhZx9MJF1/AMYdWMA==
+  dependencies:
+    lodash.template "^4.5.0"
+
 "@tryghost/update-check-service@0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@tryghost/update-check-service/-/update-check-service-0.2.3.tgz#1f47842c3e84ab40ac9b3bbae42eea592f632c29"
@@ -1769,7 +1776,18 @@
     remark-footnotes "^1.0.0"
     unist-util-visit "^2.0.0"
 
-"@tryghost/validator@0.1.5", "@tryghost/validator@^0.1.5":
+"@tryghost/validator@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@tryghost/validator/-/validator-0.1.6.tgz#b8f4f35af463d9fd39b679407b81903b8f4dd915"
+  integrity sha512-7TRxZ5Lltvp73pJmKKgY5v6myPOKOwDcZq5BZhlJ9vTdlMC4YqgrvTTfwwNy19XKjgllzF0cZQFTHjGYM7ahoA==
+  dependencies:
+    "@tryghost/errors" "^0.2.13"
+    "@tryghost/tpl" "^0.1.6"
+    lodash "^4.17.21"
+    moment-timezone "0.5.23"
+    validator "7.2.0"
+
+"@tryghost/validator@^0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@tryghost/validator/-/validator-0.1.5.tgz#ccfdb234ea951aac2e28794c0dbfa34f1d3282da"
   integrity sha512-Lzjrw2wHh2xfCmQ1kkuD5XyWWkkHUrfxeWZcKoXIj/8R+panh5X3vH8Rx9aE/FpywMb6BR/R2URG+aIDPy+16A==
